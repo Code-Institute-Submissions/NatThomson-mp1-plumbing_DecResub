@@ -33,3 +33,8 @@ User requirements:
 8. for interactive elements to be easily useable
 
 ### Wireframes
+
+
+
+
+navbar from bootstrap 
