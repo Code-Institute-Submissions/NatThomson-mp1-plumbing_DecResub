@@ -10,8 +10,27 @@ INSERT IMAGE OF WEBSITE OJN MULITPLE DEVICES HERE
 * Purpose of Project
 * User Stories
 * Design Choices
+  - color scheme
+  - typography
+  - imagery
 * Wireframes
 
+2. Technologies Used
+* Languages used
+* Frameworks, Libraries & Programs Used 
+
+3. Testing
+
+4. Bugs
+
+5. Deployment
+
+6. Credits 
+* Code
+* Content
+* Media 
+* Research
+* Acknowledgements
 
 
 
@@ -35,6 +54,10 @@ User requirements:
 ### Wireframes
 
 
-
+#5C95EF
+#414656
+#A5ABBD colors based from complimenting colors to blue of logo image, found using mycolor.space
 
 navbar from bootstrap 
+
+bug 1 - navbar collapse was not working in browser - needed to add jquery cdn
