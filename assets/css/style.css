@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*---------------------- navbar */
-
-.nav {
-    
+/*--------------- coloring ---*/ 
+.navbar {
+    background-color: #A5ABBD;
 }
+
+/*---------------------- navbar -----*/
+
 
 .nav-logo {
     width: 100px;
@@ -16,8 +18,28 @@
     padding-right: 15px;
 }
 
-/*------- just testing */
+/*------- just testing -----*/
 section {
     font-family: "Quicksand", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    background-color: #A5ABBD;
+}
+
+.hero-contaimer {
+    width: 100%;
+}
+/*-------- images --------*/
+.hero-img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/*----------general --------*/
+.who-what-head {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.area-head {
+    text-align: center;
 }
