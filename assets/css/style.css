@@ -20,8 +20,8 @@ section {
     padding-right: 15px;
 }
 
-.hero-contaimer {
-    width: 100%;
+.navbar a {
+    font-size: 25px;
 }
 /*-------- hero images --------*/
 .container-fluid {
@@ -56,3 +56,5 @@ section {
     max-width: 80%;
     min-height: 200px;
 }
+
+/*---------button-------*/
