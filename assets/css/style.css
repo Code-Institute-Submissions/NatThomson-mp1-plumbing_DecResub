@@ -2,12 +2,14 @@
 
 /*--------------- coloring ---*/ 
 .navbar {
-    background-color: #A5ABBD;
+    background-color: rgba(95,155,245, 0.7);
+}
+
+section {
+    background-color: rgba(95,155,245, 0.3);
 }
 
 /*---------------------- navbar -----*/
-
-
 .nav-logo {
     width: 100px;
     height: 100px;
@@ -18,17 +20,18 @@
     padding-right: 15px;
 }
 
-/*------- just testing -----*/
-section {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 300;
-    background-color: #A5ABBD;
-}
-
 .hero-contaimer {
     width: 100%;
 }
-/*-------- images --------*/
+/*-------- hero images --------*/
+.container-fluid {
+    padding: 0;
+}
+
+.hero-container {
+    width: 100%;
+}
+
 .hero-img {
     height: auto;
     width: 100%;
@@ -42,4 +45,14 @@ section {
 
 .area-head {
     text-align: center;
+}
+
+/*---------map-------*/
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.custom-map {
+    max-width: 80%;
+    min-height: 200px;
 }
