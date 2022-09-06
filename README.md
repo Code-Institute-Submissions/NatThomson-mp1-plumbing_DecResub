@@ -61,3 +61,5 @@ User requirements:
 navbar from bootstrap 
 
 bug 1 - navbar collapse was not working in browser - needed to add jquery cdn
+
+bug 2 - 

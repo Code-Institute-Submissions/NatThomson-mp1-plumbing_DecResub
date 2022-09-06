@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Mukta:wght@200;300;400;500&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
 /*--------------- coloring ---*/ 
 .navbar {
     background-color: rgba(95,155,245, 0.7);
 }
 
 section {
-    background-color: rgba(95,155,245, 0.3);
+    background-color: rgba(255,255,242, 0.5);
 }
-
+footer {
+    background-color: rgba(95,155,245, 0.7);
+}
 /*---------------------- navbar -----*/
 .nav-logo {
     width: 100px;
@@ -21,6 +27,7 @@ section {
 }
 
 .navbar a {
+    font-family: "Mukta", sans-serif;
     font-size: 25px;
 }
 /*-------- hero images --------*/
@@ -40,9 +47,12 @@ section {
 /*----------general --------*/
 .who-what-head {
     text-align: center;
-    padding-top: 40px;
+    margin-top: 20px;       
 }
-
+.who-what-text {
+    margin-top: 20px;
+    text-align: center;
+}
 .area-head {
     text-align: center;
 }
@@ -51,10 +61,25 @@ section {
 .flex-container {
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 .custom-map {
     max-width: 80%;
-    min-height: 200px;
+    min-height: 140px;
 }
 
 /*---------button-------*/
+
+
+/*----------footer--------*/
+footer {
+    height: 120px;
+    width: 100%;
+}
+.floater {
+    float: left;
+}
+footer h5{
+    padding-top: 40px;
+    text-align: center;
+}
