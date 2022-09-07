@@ -21,11 +21,13 @@ INSERT IMAGE OF WEBSITE OJN MULITPLE DEVICES HERE
 
 3. Testing
 
-4. Bugs
+4. Addressing User Stories
 
-5. Deployment
+5. Bugs
 
-6. Credits 
+6. Deployment
+
+7. Credits 
 * Code
 * Content
 * Media 
@@ -59,7 +61,15 @@ User requirements:
 #A5ABBD colors based from complimenting colors to blue of logo image, found using mycolor.space
 
 navbar from bootstrap 
+structure on index from bootstrap
 
-bug 1 - navbar collapse was not working in browser - needed to add jquery cdn
+bug 1 - navbar collapse was not working in browser - FIX needed to add jquery cdn
 
-bug 2 - 
+bug 2 - space on left and right of pages not clearing - 
+
+bug 3 - nav bar background color appearing underneath navbar on contact and testimonials pages - UPDATE fixed on testimonials page by removing 'bg-light' but same fix does not work on contact page 
+
+bug 4 - contact page not showing updates in preview windown but is in external one - 
+
+
+
