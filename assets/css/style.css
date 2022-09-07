@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Mukta:wght@200;300;400;500&display=swap');
-
-* {
+body {
     margin: 0;
     padding: 0;
     border: 0;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
 }
 /*--------------- coloring ---*/ 
 .navbar {
@@ -29,8 +30,9 @@ footer {
 
 .navbar a {
     font-family: "Mukta", sans-serif;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 25pt;
+    letter-spacing: 2pt;
 }
 /*-------- hero images --------*/
 .container-fluid {
@@ -46,18 +48,25 @@ footer {
     width: 100%;
     margin-bottom: 15px;
 }
+
 /*----------general --------*/
 .who-what-head {
     text-align: center;
     margin-top: 20px;
 }
+.who-what-head h3 {
+    align-items: center;
+}
+
 .who-what-text {
     margin-top: 20px;
     text-align: center;
+    font-family: "Mukta", sans-serif; 
 }
 .area-head {
     text-align: center;
     font-family: "Mukta", sans-serif; 
+    font-weight: 400;
 }
 
 /*---------map-------*/
@@ -69,18 +78,24 @@ footer {
 .custom-map {
     width: 400px;
     height: 400px;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
 }
 
 /*---------button-------*/
-.btn {
+.btn,
+.btn a {
     font-family: "Mukta", sans-serif;
 }
-
+.help-call {
+    text-decoration: none;
+    color: white;
+}
 /*----------footer--------*/
 footer {
     height: 110px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .floater {
     float: left;
@@ -88,9 +103,8 @@ footer {
 footer h5{
     padding-top: 40px;
     margin-left: 20px;
-    text-align: left;
+    text-align: center;
 }
 footer .nav-logo {
     margin-top: 5px;
 }
-

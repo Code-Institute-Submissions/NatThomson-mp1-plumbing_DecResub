@@ -65,7 +65,7 @@ structure on index from bootstrap
 
 bug 1 - navbar collapse was not working in browser - FIX needed to add jquery cdn
 
-bug 2 - space on left and right of pages not clearing - 
+bug 2 - space on left and right of pages not clearing - FIX needed to add .no-gutters to bootsrap rows
 
 bug 3 - nav bar background color appearing underneath navbar on contact and testimonials pages - UPDATE fixed on testimonials page by removing 'bg-light' but same fix does not work on contact page 
 
