@@ -30,9 +30,8 @@ footer {
 
 .navbar a {
     font-family: "Mukta", sans-serif;
-    font-weight: 900;
-    font-size: 25pt;
-    letter-spacing: 2pt;
+    font-weight: 500;
+    font-size: 22pt;
 }
 /*-------- hero images --------*/
 .container-fluid {
