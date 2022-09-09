@@ -85,9 +85,13 @@ footer {
     font-family: "Mukta", sans-serif;
 }
 .help-call {
-    text-decoration: none;
     color: white;
 }
+.help-call:hover {
+    color: white;
+    text-decoration: none;
+}
+
 /*----------footer--------*/
 footer {
     height: 110px;
