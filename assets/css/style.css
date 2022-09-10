@@ -88,42 +88,19 @@ section {
     color: white;
     text-decoration: none;
 }
-
-/*----------footer--------
-footer {
-    height: 110px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-.floater {
-    float: left;
-}
-footer h5{
-    padding-top: 40px;
-    margin-left: 20px;
-    text-align: center;
-}
-footer .nav-logo {
-    margin-top: 5px;
-}
-ul {
-    align-items: right;
-} */
-/*---------testimonials-------*/
 .testes {
     text-align: left;
 }
 .testes h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
     padding-left: 12px;
 }
 .testes h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-left: 12px;
 }
 .testes p {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
     padding: 12px;
 }
@@ -145,6 +122,9 @@ footer {
 .social-links {
     padding-bottom: 15px; 
 }
+.social-links li {
+    padding-top: 25px;
+}
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -162,4 +142,8 @@ footer {
 }
 .social-links li a i:hover {
     background: #537e78;
+}
+.footer-text {
+    padding-bottom: 15px;
+    font-family: "Mukta", sans-serif; 
 }

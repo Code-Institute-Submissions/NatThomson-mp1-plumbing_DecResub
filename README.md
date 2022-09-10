@@ -48,9 +48,9 @@ Due to the nature of the serices he provides, adults of all ages need to be able
 
 ### User Stories
 The user will:
-1. be able to access the website on a variety of different devices
+1. be able to easily access the website on a variety of different devices
 2. be able to view emergency contact details incase plumbing services are needed in a hurry
-3. be able to see a detailed list of example services offered
+3. be able to see services offered
 4. the ability to get in contact in a variety of different ways easily and clearly
 5. to navigate the various pages of the website easily
 6. clearly see if services are available from the website in their area 
@@ -78,7 +78,11 @@ The user will:
 
 ## Addressing User Stories
 
-Here we shall explore the user needs as outlined in the [User Stories](#user-stories) section. 
+Here we shall explore the user needs as outlined in the [User Stories](#user-stories) section. each user need will be examined with explanations and/or screenshots provided where appropriate 
+
+1. be able to easily access the website on a variety of different devices
+
+The first step taken to insure the easy access of the website on a variety of diffenet devices is by exploiting the 'viewport meta' tag in the head section of each of the html pages that make up the website.  
 
 
 
