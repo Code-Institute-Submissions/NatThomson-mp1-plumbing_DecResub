@@ -3,7 +3,7 @@
 ### by Nat Thomson
 ---
 
-INSERT IMAGE OF WEBSITE OJN MULITPLE DEVICES HERE
+INSERT IMAGE OF WEBSITE ON MULITPLE DEVICES HERE
 
 ## Table of Contents
 1. [UX](#ux)
@@ -15,19 +15,19 @@ INSERT IMAGE OF WEBSITE OJN MULITPLE DEVICES HERE
   - imagery
 * Wireframes
 
-2. Technologies Used
+2. [Technologies Used](#technologies-used)
 * Languages used
 * Frameworks, Libraries & Programs Used 
 
-3. Testing
+3. [Testing](#testing)
 
-4. Addressing User Stories
+4. [Addressing User Stories](#addressing-user-stories)
 
-5. Bugs
+5. [Bugs](#bugs)
 
-6. Deployment
+6. [Deployment](#deployment)
 
-7. Credits 
+7. [Credits](#credits) 
 * Code
 * Content
 * Media 
@@ -54,6 +54,52 @@ User requirements:
 8. for interactive elements to be easily useable
 
 ### Wireframes
+
+
+
+
+## Technologies Used
+
+
+
+
+
+
+## Testing
+
+
+
+
+
+
+## Addressing User Stories
+
+
+
+
+
+
+## Deployment
+
+
+
+
+
+## Credits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #5C95EF
