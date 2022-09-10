@@ -5,6 +5,10 @@
 
 INSERT IMAGE OF WEBSITE ON MULITPLE DEVICES HERE
 
+WEBSITE LINK
+
+REPPOSITORY LINK
+
 ## Table of Contents
 1. [UX](#ux)
 * Purpose of Project
@@ -43,7 +47,7 @@ The purpose of the project is to create a website advertising a ficticious plumb
 Due to the nature of the serices he provides, adults of all ages need to be able to use therefore it is imperative that the site is both user-friendly and accesible so as to appeal to as wide an audience as possible. 
 
 ### User Stories
-User requirements:
+The user will:
 1. be able to access the website on a variety of different devices
 2. be able to view emergency contact details incase plumbing services are needed in a hurry
 3. be able to see a detailed list of example services offered
@@ -74,7 +78,7 @@ User requirements:
 
 ## Addressing User Stories
 
-
+Here we shall explore the user needs as outlined in the [User Stories](#user-stories) section. 
 
 
 
