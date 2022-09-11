@@ -107,6 +107,21 @@ _see image below_
 
 INSERT SCREENSHOTS OF BUTTON
 
+3. be able to see services offered
+
+- Services offered are clearly displayed on the home page under the heading 'What We Offer'. It is also worth recalling the aforementioned 'Emergency' button which in a sense is also a service and clearly dislplayed.  
+
+_see image below_
+
+INSERT SCREENSHOT OF WHAT WE OFFER
+
+4. the ability to get in contact in a variety of different ways easily and clearly
+
+- 
+
+_see image below_
+
+
 
 ## Deployment
 
