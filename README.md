@@ -117,11 +117,19 @@ INSERT SCREENSHOT OF WHAT WE OFFER
 
 4. the ability to get in contact in a variety of different ways easily and clearly
 
-- 
+- By following the 'Contact' link on the navbar you are taken to a page featuring brief instructions, a contact form and some other forms of getting in touch including phone number, email address and business address. The footer page also features three social media links which could also be used to get in touch should the hypothetical client wish. 
 
 _see image below_
 
+INSERT SCREENSHOT OF CONTACT PAGE ANDANDAND SOCIAL LINKS
 
+5. to navigate the various pages of the website easily
+
+- The responsive navbar located at the top of every page allows for easy access to and from the Home, Contact and Testimonials pages. On a large screen each page name is listed horizontally within the navbar with the page you are on being clearly yet subtly highlighted by way of a darker text color. On smaller screens the navbar appears with a 'hamburger' menu which when clicked on reveals the various pages vertically. 
+
+_see image below_
+
+INSERT SCREENSHOT OF NAVBAR ON BOTH SIZES
 
 ## Deployment
 
