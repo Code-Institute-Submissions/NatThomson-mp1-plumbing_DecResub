@@ -131,6 +131,14 @@ _see image below_
 
 INSERT SCREENSHOT OF NAVBAR ON BOTH SIZES
 
+6. clearly see if services are available from the website in their area 
+ 
+- I made a custom google map and embedded it into the home page and also the contact page to serve as an additional reminder to the user incase for instance they have googled 'newport plumber' and hoped to find a plumber in one of the 14 other Newport's in the UK. The map clearly shows a red border around 
+
+_see image below_
+
+INSERT SCREENSHOT OF MAP
+
 ## Deployment
 
 
