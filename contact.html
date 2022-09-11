@@ -1,97 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Mukta:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/98c44c3214.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>paolo-contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Mukta:wght@200;300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/98c44c3214.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>paolo-contact</title>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="nav-logo-container"><a href="index.html"><img class="nav-logo" src="/assets/images/paolo-logo.png" alt="logo"></a></div>
-        <a class="navbar-brand" href="index.html"> Paolo's Plumbing</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link active" href="contact.html">Contact</a>
-            <a class="nav-link" href="testimonials.html">Testimonials</a>
+      <div class="nav-logo-container"><a href="index.html"><img class="nav-logo" src="/assets/images/paolo-logo.png"
+            alt="logo"></a></div>
+      <a class="navbar-brand" href="index.html"> Paolo's Plumbing</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="contact.html">Contact</a>
+          <a class="nav-link" href="testimonials.html">Testimonials</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="hero-container">
+      <img class="hero-img" src="/assets/images/contact-hero.avif" alt="phone with laptop">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="button" aria-pressed="false"><i
+        class="fa-solid fa-triangle-exclamation"></i> Emergency? Click Here <i class="fa-solid fa-phone"></i></button>
+    <div class="contact-text">
+      <p>
+        To get in touch regarding a specific project you have in mind, please get in touch via the contact form below.
+        Alternatively feel free to get in touch via the other methods provided beneath the form. All the best, Paolo.
+      </p>
+    </div>
+    <br>
+    <!----Form derived from Boostrap 4 example --->
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <!---EMPTY SPACE LEFT-->
+      </div>
+      <div class="col-md-4">
+        <form>
+          <div class="form-group">
+            <label for="email-pablo">Email address</label>
+            <input type="email" class="form-control" id="email-pablo" placeholder="name@example.com" required>
           </div>
+          <div class="form-group">
+            <label for="textarea">Project Details</label>
+            <textarea class="form-control" id="textarea" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+        <div class="flex-container">
+          <iframe class="custom-map"
+            src="https://www.google.com/maps/d/u/0/embed?mid=171uia26sW7nzg7GiQJSB9NbQq4ftPQQ&ehbc=2E312F"></iframe>
         </div>
-      </nav>
-</header>
-    <section>
-      <div class= "hero-container">
-        <img class="hero-img" src="/assets/images/contact-hero.avif" alt="phone with laptop">
-      </div>
-      <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="button" aria-pressed="false"><i class="fa-solid fa-triangle-exclamation"></i> Emergency? Click Here <i class="fa-solid fa-phone"></i></button>
-      <!----Form derived from Boostrap 4 example --->
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <!---EMPTY SPACE LEFT-->
-        </div>
-        <div class="col-md-4">
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary mb-2">Submit</button>
-      </form>
-      <div class="flex-container">
-        <iframe class="custom-map" src="https://www.google.com/maps/d/u/0/embed?mid=171uia26sW7nzg7GiQJSB9NbQq4ftPQQ&ehbc=2E312F"></iframe>
-      </div>
       </div>
       <div class="col-md-4">
         <!--EMPTY SPACE RIGHT-->
       </div>
     </div>
-    </section>
-    <footer>
-      <div id="footer-details" class="row">
-        <div class="col-sm-4">
-            <h5 class="who-what-head">Paolo's Plumbing</h5>
-        </div>
-        <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-            <h5 class="uppercase general-sub">Social</h5>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+  </section>
+  <footer>
+    <div id="footer-details" class="row">
+      <div class="col-sm-4">
+        <h5 class="footer-text">Paolo's Plumbing</h5>
+      </div>
+      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4">
+        <h5 class="footer-text">Social</h5>
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a target="_blank" href="#">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="#">
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+              <span class="sr-only">Pinterest</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span class="sr-only">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>
+
 </html>
