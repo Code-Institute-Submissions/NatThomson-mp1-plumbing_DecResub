@@ -48,7 +48,7 @@ Due to the nature of the serices he provides, adults of all ages need to be able
 
 ### User Stories
 The user will:
-1. be able to easily access the website on a variety of different devices
+1. be able to clearly see the website on a variety of different devices
 2. be able to view emergency contact details incase plumbing services are needed in a hurry
 3. be able to see services offered
 4. the ability to get in contact in a variety of different ways easily and clearly
@@ -58,7 +58,12 @@ The user will:
 8. for interactive elements to be easily useable
 
 ### Wireframes
-
+index page wireframe 
+![alt text](/README-files/home%20page.png)
+contact page wireframe
+![alt text](/README-files/contact.png)
+testimonials page wireframe
+![alt text](/README-files/testimonials.png)
 
 
 
@@ -82,7 +87,9 @@ Here we shall explore the user needs as outlined in the [User Stories](#user-sto
 
 1. be able to easily access the website on a variety of different devices
 
-The first step taken to insure the easy access of the website on a variety of diffenet devices is by exploiting the 'viewport meta' tag in the head section of each of the html pages that make up the website.  
+- The first step taken to insure easy viewing of the website on a variety of diffenet devices is by exploiting the 'viewport meta' tag in the head section of each of the html pages that make up the website. This helps to scale the website more appropriately on mobile devices. More information can be found on this here: https://www.w3schools.com/css/css_rwd_viewport.asp. 
+- The second step taken was to make sure the website's strucure was responsive in design. I primarily used the [Boostrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/). I chose this in part because I had very recently completed the Boostrap Resume mini project so it was fresh in my mind and also because it met the requirements of the design choices I had made (as seen in the )
+
 
 
 
