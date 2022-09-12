@@ -142,19 +142,25 @@ INSERT SCREENSHOT OF MAP
 
 7. for the site to meet accesibility guidelines
 
+A number of steps have been taken to insure the website is accessible to as many people as possible. 
+- Firstly, all images have 'alt-text' describing what the image is for those that use screen readers. 
+- Aria labels such as 'aria-hiiden' and 'aria-expand' have been used where appreopriate also to aid with screen readers. 
+- On a simpler note the contrast between text and background colors has been chosen to be easily readable i.e. black text against an off-white background as it is in most places on the website. 
+
 
 _see image below_
 
-INSERT SCREENSHOT OF
+INSERT SCREENSHOT OF black text on white background
 
 
 
 8. for interactive elements to be easily useable
 
+The website features very few interactive elements. All of them are based on common practisses found on modern websites. For example the navbar when viewed on a large screen has all pages listed horizontally. Not only this but when each is moused over the text gets visibly darker. On smaller screens the ever familiar 'hamburger menu' that (as I'm sure you will know) when clicked displays the other pages horizontally. It is worth noting too that the logo and title within the header aswell as the social media icons located in the footer are also clickable and take the user to the home page. The map on the home page and contact page is interactive. It features the same interactivity as you would find on google maps such as click and drag to move the map, mouse wheel to zoom in/out or the plus/minus buttons on the bottom left of the map and a clickable icon located in the top right of the map signifying to make the map fullscreen which when clicked opens in a new tab so as not to make the user leave the website. The 'emergency' button, which has already been discussed in previous user stories, is interactive and works by being clicked and then it will even try to call the number (my number for testing purposes).  The final interactive element is the contact form.
 
 _see image below_
 
-INSERT SCREENSHOT OF
+INSERT SCREENSHOT OF interactive elements 
 
 
 ## Deployment
