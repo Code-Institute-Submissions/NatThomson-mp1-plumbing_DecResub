@@ -64,8 +64,19 @@ Below is the color pallete I decided to use for the website. I decided upon this
 
 ![alt text](/README-files/screenshots/color-pal.png)
 
+I decided to stick with one modern looking font for the website: 'Mukta' as shown below.
+I used a variety of differnt font weights to help show a differnece in text importance much in the same way as font-size. 
 
+![alt text](/README-files/screenshots/font-mukta.png)
 
+All hero/banner images were taken from pexels using various search criteria. For the home page image I wanted a picture to show off Pablo's plumbing. 
+![alt text](/assets/images/index-hero.avif)
+For the contact page I wanted a picture that conveys the purpose of said page so found a n image of a laptop with an iphone in hand.
+![alt text](/assets/images/contact-hero.avif)
+For the testimonials page I thought an image of a could-be-Pablo would go well so users can attribute the positive reviews shown with Paolo's smiley face. 
+![alt text](/assets/images/teste-hero.avif)
+The final imagery to mention is that of the logo; created using DALL.E 2 - an image generating AI i signed up to use. The logo is the letter 'P' for Paolo with a dripping tap to reinforce the fact that he is a plumber. It was created by using the descriptive text of 'The letter P with a tap, digital art'. after putting it into a circle using CSS I think it looks very professional. 
+![alt text](/assets/images/paolo-logo.png)
 ### Wireframes
 index page wireframe 
 ![alt text](/README-files/home%20page.png)
