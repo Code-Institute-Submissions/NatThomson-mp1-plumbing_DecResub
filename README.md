@@ -5,9 +5,9 @@
 
 INSERT IMAGE OF WEBSITE ON MULITPLE DEVICES HERE
 
-https://natthomson.github.io/mp1-plumbing/
+live site: https://natthomson.github.io/mp1-plumbing/
 
-https://github.com/NatThomson/mp1-plumbing
+repository: https://github.com/NatThomson/mp1-plumbing
 
 ## Table of Contents
 1. [UX](#ux)
@@ -195,7 +195,10 @@ _see previously incuded screenshots of navbar, social links, button and form_
 
 ## Deployment
 
-In order to deploy this wwebsite you must 
+In order to deploy this wwebsite you must go to the repository: https://github.com/NatThomson/mp1-plumbing > click on settings, located above green gitpod button > click on pages, located on left hand menu > under Build and deployment, source,  click to deploy from branch > select main branch. 
+Now back in the repository, when you navigate to 'environments' on the right hand side it will say github-pages. click here and you will be taken to a page with all deployments of the website. the most recent one will be labelled active. Now click VIEW DEPLOYMENT to see the love website. 
+For further information please visit: https://docs.github.com/en/pages/quickstart 
+
 
 
 
