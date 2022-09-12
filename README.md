@@ -5,9 +5,9 @@
 
 INSERT IMAGE OF WEBSITE ON MULITPLE DEVICES HERE
 
-WEBSITE LINK
+https://natthomson.github.io/mp1-plumbing/
 
-REPPOSITORY LINK
+https://github.com/NatThomson/mp1-plumbing
 
 ## Table of Contents
 1. [UX](#ux)
