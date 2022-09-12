@@ -102,7 +102,8 @@ testimonials page wireframe
 - google fonts - source of 'Mukta' font
 - imagecolorpicker.com - used to take a color from the AI generated logo and then provide an appropriate color pallete
 - mycolor.space - also consulted for color scheme
-
+- iloveimg.com - used to resoze and crop images
+- avif.io - used to convert images from jpeg to avif files
 
 
 ## Testing
@@ -230,5 +231,5 @@ bug 3 - nav bar background color appearing underneath navbar on contact and test
 
 bug 4 - contact page not showing updates in preview windown but is in external one - 
 
-
+bug 5 - navbar different on index and other 2 - FIX - needed navbar-expand-md class in all three. other 2 were navbar-expand-lg
 
