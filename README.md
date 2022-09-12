@@ -57,6 +57,15 @@ The user will:
 7. for the site to meet accesibility guidelines
 8. for interactive elements to be easily useable
 
+
+### Design Choices
+
+Below is the color pallete I decided to use for the website. I decided upon this because blue is generally seen as a color which conveys a sense of calm and that's how I want the users to feel when using the website. Simple design - simple colors - calm down - call plumber. As for this pallet in particular it all comes down to that word 'simple' again. These three colors paired with an off-white shade made for a visually pleasing, un-cluttered website. 
+
+![alt text](/README-files/screenshots/color-pal.png)
+
+
+
 ### Wireframes
 index page wireframe 
 ![alt text](/README-files/home%20page.png)
@@ -70,6 +79,7 @@ testimonials page wireframe
 ## Technologies Used
 
 - Balsamiq - used for creating the wireframes seen at the top of this file. 
+- HTML5 & CSS3 - languages used 
 - gitpod.io - only IDE I used for coding
 - DallE2 - this image generating AI was used to create the logo
 - Font Awesome - used for decorative icons
@@ -78,7 +88,7 @@ testimonials page wireframe
 - bootstrap 4 - used for the navbar, various layouts and footer
 - google fonts - source of 'Mukta' font
 - imagecolorpicker.com - used to take a color from the AI generated logo and then provide an appropriate color pallete
-
+- mycolor.space - also consulted for color scheme
 
 
 
