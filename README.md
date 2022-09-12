@@ -139,6 +139,24 @@ _see image below_
 
 INSERT SCREENSHOT OF MAP
 
+
+7. for the site to meet accesibility guidelines
+
+
+_see image below_
+
+INSERT SCREENSHOT OF
+
+
+
+8. for interactive elements to be easily useable
+
+
+_see image below_
+
+INSERT SCREENSHOT OF
+
+
 ## Deployment
 
 
