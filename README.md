@@ -69,7 +69,15 @@ testimonials page wireframe
 
 ## Technologies Used
 
-
+- Balsamiq - used for creating the wireframes seen at the top of this file. 
+- gitpod.io - only IDE I used for coding
+- DallE2 - this image generating AI was used to create the logo
+- Font Awesome - used for decorative icons
+- pexels - source of all images on website 
+- google maps - used to create the custom map
+- bootstrap 4 - used for the navbar, various layouts and footer
+- google fonts - source of 'Mukta' font
+- imagecolorpicker.com - used to take a color from the AI generated logo and then provide an appropriate color pallete
 
 
 
@@ -90,15 +98,14 @@ Here we shall explore the user needs as outlined in the [User Stories](#user-sto
 - The first step taken to insure easy viewing of the website on a variety of diffenet devices is by exploiting the 'viewport meta' tag in the head section of each of the html pages that make up the website. This helps to scale the website more appropriately on mobile devices. More information can be found on this here: https://www.w3schools.com/css/css_rwd_viewport.asp. 
 - The second step taken was to make sure the website's strucure was responsive in design. I primarily used the [Boostrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/). I chose this in part because I had very recently completed the Boostrap Resume mini project so it was fresh in my mind and also because it met the requirements of the design choices I had made (as seen in the [wireframes](#wireframes)). Boostrap allowed for content to easily be switched betweem 1, 2 or 3 collumns depending on screen size and cotent. 
 _see images below_
-![alt text]()
-![alt text]()
+![alt text](/README-files/screenshots/shot-one-col.png)
+![alt text](/README-files/screenshots/shot-two-col.png)
 
 INSERT SCREENSHOT OF 1 VS 2 COLLUMNS
 
 - Font size too was obviously an important consideration. Based on research undertaken it seemed clear that text should generally be of at least 16px. Therefore this is the font size used for all paragraph text. Heading text was then larger at 20px and 22px depending on content importance. These values were then converted to REM on advice from my tutor as this is seen as industry standard for text on a webpage again to aid in repsonsiveness. As a personal side note I have terible eye sight and am currently without glasses and have found no difficulty in reading any of the text content during testing. 
 _see images below_
 ![alt text](/README-files/screenshots/shot-black-text.png)
-INSERT SCREENSHOT HIGHLIGHTING TEXT SIZE ON DIFF SCREENSIZES
 
 - 
 
@@ -107,15 +114,13 @@ INSERT SCREENSHOT HIGHLIGHTING TEXT SIZE ON DIFF SCREENSIZES
 - Oftentimes people seek to get in touch with tradeseople such as plumbers in times of desperation such as a suspected burst pipe or a backed up toilet. When this happens you want to be able to get in touch with someone that can help fast without going through the hassle of filling out a contact form and awaiting reply. This is why there is an 'Emergency Call' button located on both the index page and the contact page below each respective 'hero image'. Not only does this provide a quick solution to finding emergency contact details but the button also redirects to a href of Paolo's (actually mine) mobile number. This way a potential customer in need of emergency plumbing services can search for their local plumber, find Paolo's site, click the clearly labelled but and be on the phone to him within minutes. 
 _see image below_
 ![alt text](/README-files/screenshots/shot-button.png)
-INSERT SCREENSHOTS OF BUTTON
 
 3. be able to see services offered
 
 - Services offered are clearly displayed on the home page under the heading 'What We Offer'. It is also worth recalling the aforementioned 'Emergency' button which in a sense is also a service and clearly dislplayed.  
 
 _see image below_
-![alt text]()
-INSERT SCREENSHOT OF WHAT WE OFFER
+![alt text](/README-files/screenshots/shot-what.png)
 
 4. the ability to get in contact in a variety of different ways easily and clearly
 
@@ -123,24 +128,24 @@ INSERT SCREENSHOT OF WHAT WE OFFER
 
 _see image below_
 ![alt text](/README-files/screenshots/shot-form.png)
-![alt text]()
-INSERT SCREENSHOT OF CONTACT PAGE ANDANDAND SOCIAL LINKS
+![alt text](/README-files/screenshots/shot-social.png)
 
 5. to navigate the various pages of the website easily
 
 - The responsive navbar located at the top of every page allows for easy access to and from the Home, Contact and Testimonials pages. On a large screen each page name is listed horizontally within the navbar with the page you are on being clearly yet subtly highlighted by way of a darker text color. On smaller screens the navbar appears with a 'hamburger' menu which when clicked on reveals the various pages vertically. 
 
 _see image below_
-![alt text]()
-INSERT SCREENSHOT OF NAVBAR ON BOTH SIZES
+![alt text](/README-files/screenshots/shot-navbar-small.png)
+![alt text](/README-files/screenshots/shot-navbar.png)
+
 
 6. clearly see if services are available from the website in their area 
  
 - I made a custom google map and embedded it into the home page and also the contact page to serve as an additional reminder to the user incase for instance they have googled 'newport plumber' and hoped to find a plumber in one of the 14 other Newport's in the UK. The map clearly shows a red border indicating that Paolo is happy to travel to anyone within that section of the map. 
 
 _see image below_
-![alt text]()
-INSERT SCREENSHOT OF MAP
+![alt text](/README-files/screenshots/shot-map.png)
+
 
 
 7. for the site to meet accesibility guidelines
@@ -152,8 +157,7 @@ A number of steps have been taken to insure the website is accessible to as many
 
 
 _see image below_
-![alt text]()
-INSERT SCREENSHOT OF black text on white background
+![alt text](/README-files/screenshots/shot-black-text.png)
 
 
 
@@ -161,9 +165,8 @@ INSERT SCREENSHOT OF black text on white background
 
 The website features very few interactive elements. All of them are based on common practisses found on modern websites. For example the navbar when viewed on a large screen has all pages listed horizontally. Not only this but when each is moused over the text gets visibly darker. On smaller screens the ever familiar 'hamburger menu' that (as I'm sure you will know) when clicked displays the other pages horizontally. It is worth noting too that the logo and title within the header aswell as the social media icons located in the footer are also clickable and take the user to the home page. The map on the home page and contact page is interactive. It features the same interactivity as you would find on google maps such as click and drag to move the map, mouse wheel to zoom in/out or the plus/minus buttons on the bottom left of the map and a clickable icon located in the top right of the map signifying to make the map fullscreen which when clicked opens in a new tab so as not to make the user leave the website. The 'emergency' button, which has already been discussed in previous user stories, is interactive and works by being clicked and then it will even try to call the number (my number for testing purposes).  The final interactive element is the contact form.
 
-_see image below_
-![alt text]()
-INSERT SCREENSHOT OF interactive elements 
+_see previously incuded screenshots of navbar, social links, button and form_
+
 
 
 ## Deployment
