@@ -77,6 +77,8 @@ For the testimonials page I thought an image of a could-be-Pablo would go well s
 ![alt text](/assets/images/teste-hero.avif)
 The final imagery to mention is that of the logo; created using DALL.E 2 - an image generating AI i signed up to use. The logo is the letter 'P' for Paolo with a dripping tap to reinforce the fact that he is a plumber. It was created by using the descriptive text of 'The letter P with a tap, digital art'. after putting it into a circle using CSS I think it looks very professional. 
 ![alt text](/assets/images/paolo-logo.png)
+
+
 ### Wireframes
 index page wireframe 
 ![alt text](/README-files/home%20page.png)
