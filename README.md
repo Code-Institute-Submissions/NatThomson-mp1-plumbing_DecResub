@@ -1,4 +1,4 @@
-# Paulo's Plumbing and Heating
+# Paolo's Plumbing
 ## Milestone Project 1 
 ### by Nat Thomson
 ---
@@ -39,13 +39,13 @@ Repository: https://github.com/NatThomson/mp1-plumbing
 * Acknowledgements
 
 
-
+___
 ## UX
 
 ### Purpose of Project
 The purpose of the project is to create a website advertising a ficticious plumbers services. Paolo does a lot of on call work (emergency work such as leaks, burst pipes etc.) and therefore needs visitors to his website to be able to get in touch with him quickly. He also does more intricate residential plumbing work so needs to be able to showcase his work in a clear way and for potential customers to be able to get in touch with him with details of the work they need done. 
 Due to the nature of the serices he provides, adults of all ages need to be able to use therefore it is imperative that the site is both user-friendly and accesible so as to appeal to as wide an audience as possible. 
-
+___
 ### User Stories
 The user will:
 1. be able to easily view the website on a variety of different devices
@@ -57,7 +57,7 @@ The user will:
 7. for the site to meet accesibility guidelines
 8. for interactive elements to be easily useable
 
-
+___
 ### Design Choices
 
 Below is the color pallete I decided to use for the website. I decided upon this because blue is generally seen as a color which conveys a sense of calm and that's how I want the users to feel when using the website. Simple design - simple colors - calm down - call plumber. As for this pallet in particular it all comes down to that word 'simple' again. These three colors paired with an off-white shade made for a visually pleasing, un-cluttered website. 
@@ -69,11 +69,11 @@ I used a variety of differnt font weights to help show a differnece in text impo
 
 ![alt text](/README-files/screenshots/font-mukta.png)
 
-All hero/banner images were taken from pexels using various search criteria. For the home page image I wanted a picture to show off Pablo's plumbing. 
+All hero/banner images were taken from pexels using various search criteria. For the home page image I wanted a picture to show off Paolo's plumbing. 
 ![alt text](/assets/images/index-hero.avif)
 For the contact page I wanted a picture that conveys the purpose of said page so found a n image of a laptop with an iphone in hand.
 ![alt text](/assets/images/contact-hero.avif)
-For the testimonials page I thought an image of a could-be-Pablo would go well so users can attribute the positive reviews shown with Paolo's smiley face. 
+For the testimonials page I thought an image of a could-be-Paolo would go well so users can attribute the positive reviews shown with Paolo's smiley face. 
 ![alt text](/assets/images/teste-hero.avif)
 The final imagery to mention is that of the logo; created using DALL.E 2 - an image generating AI i signed up to use. The logo is the letter 'P' for Paolo with a dripping tap to reinforce the fact that he is a plumber. It was created by using the descriptive text of 'The letter P with a tap, digital art'. after putting it into a circle using CSS I think it looks very professional. 
 ![alt text](/assets/images/paolo-logo.png)
@@ -104,15 +104,48 @@ testimonials page wireframe
 - mycolor.space - also consulted for color scheme
 - iloveimg.com - used to resoze and crop images
 - avif.io - used to convert images from jpeg to avif files
+- Chrome Devtools - relied upon heavily for visualising style changes and troubleshooting minor issues with code. 
 
 
 ## Testing
 
-The process of testing was broken up in to three main stages: testing duri
+_As the site is now complete it is worth noting that all interactive elements have been tested in Chrome, Firefox and Safari on Macbook, Chrome and Safari on an iPhone mini 13 and Chrome and Safari on an iPad. There has been no loss of functionality found on any of the browsers and devices tested._
 
 
 
+The process of testing the website took place over several stages of the build. Testing was carried out from the very beginning in simple ways such as changing the background color of the index.html to red to make sure the style.css file linked up correctly or adding lorum ipsem text to get a feel for what the website would look with a full ammount of text before I was ready to put in the final text. 
 
+During the build provess when a minor error occured or when I wanted to quickly see the result of changing margin/padding values I relied heavily on Chrome DevTools. 
+
+Once the build was compelte or near complete I made use of the Lighthouse feature within DevTools. This gave me a detailed report on the load time of each page on both desktop and mobile. You can view the reports here:
+
+- [index desktop](/README-files/testing-files/index-lighthouse.pdf)
+- [index mobile](/README-files/testing-files/index-mobile-lighthouse.pdf)
+- [contact desktop](/README-files/testing-files/contact-lighthouse.pdf)
+- [contact mobile](/README-files/testing-files/contact-mobile-lighthouse.pdf)
+- [testimonials desktop](/README-files/testing-files/testemonials-lighthouse.pdf)
+- [testimonials mobile](/README-files/testing-files/testimonials-mobile-lighthouse.pdf)
+
+One common issue found within these reports was that of the image sizing. This was intended as a design choice however having seen the impact it has on load tomes I would reconsider this design choice in future projects. 
+
+I also ran each page through a html validator and the style.css through a CSS validator, results of which can be seen below:
+
+
+- index.html 
+![alt text](/README-files/testing-files/index-html-validator.png)
+This is the result of adding the a tag for the functionality of 'click to call' having already set upon the styling of the button. In future I will make sure to put functionality and useability first over design. 
+- contact.html
+![alt text](/README-files/testing-files/contact-html-validator.png)
+The issues here appear to be symantic only in realtion to the number of dashes in a comment and then the lack of a h1 within the header - nothing affecting funcitonality but perhaps not considered best practise.
+
+- testimonials.html
+![alt text](/README-files/testing-files/testemonials-html-validator.png)
+No issues found by validator. 
+
+css validator results 
+![alt text](/README-files/testing-files/css-validator.png)
+
+___
 ## Addressing User Stories
 
 Here we shall explore the user needs as outlined in the [User Stories](#user-stories) section. each user need will be examined with explanations and/or screenshots provided where appropriate 
@@ -125,7 +158,6 @@ _see images below_
 ![alt text](/README-files/screenshots/shot-one-col.png)
 ![alt text](/README-files/screenshots/shot-two-col.png)
 
-INSERT SCREENSHOT OF 1 VS 2 COLLUMNS
 
 - Font size too was obviously an important consideration. Based on research undertaken it seemed clear that text should generally be of at least 16px. Therefore this is the font size used for all paragraph text. Heading text was then larger at 20px and 22px depending on content importance. These values were then converted to REM on advice from my tutor as this is seen as industry standard for text on a webpage again to aid in repsonsiveness. As a personal side note I have terible eye sight and am currently without glasses and have found no difficulty in reading any of the text content during testing. 
 _see images below_
@@ -189,7 +221,7 @@ The website features very few interactive elements. All of them are based on com
 
 _see previously incuded screenshots of navbar, social links, button and form_
 
-
+___
 ## Bugs 
 ### Fixed 
 1. 
@@ -214,27 +246,31 @@ _see previously incuded screenshots of navbar, social links, button and form_
 - Problem: all images showing as broken img links on live website. 
 - Solution: This took a little time and would have been helped by more patience on my part. At first I thought that it might be the case that the file ectensions had to be upper case for Github Pages. However this proved fruitless. My next step was to try altering the file paths from "/assets/images" to "../assets/images". This too had no effect. I then tried "./assets/images" which did not appear to work whereas in actual fact it had worked but I had been too omaptient and did not allow Pages time to load properly, assumed it had not worked and then tried the first three attempts again before finally realising ".assets/images" was correct. 
 
+### Unresolved Bugs
+It is worth noting that in Chrome on the iPhone mini 13 there is empty white space to the left and right of the screen on all of the web pages. 
+___
 ### a note on deployed website
 
 _The three social links refresh the page instead of openning the desired website._
 
 _The contact form too does not link anywhere but will refresh the contact page. It will however ask for required fields to be complete before allowing to submit._
+___
 ## Deployment
 
 In order to deploy this wwebsite you must go to the repository: https://github.com/NatThomson/mp1-plumbing > click on settings, located above green gitpod button > click on pages, located on left hand menu > under Build and deployment, source,  click to deploy from branch > select main branch. 
 Now back in the repository, when you navigate to 'environments' on the right hand side it will say github-pages. click here and you will be taken to a page with all deployments of the website. the most recent one will be labelled active. Now click VIEW DEPLOYMENT to see the love website. 
 For further information please visit: https://docs.github.com/en/pages/quickstart 
 
-
+___
 ## Potential Future Development for the Website
 
 
-
+___
 ## What I would have done diffenretly 
 
 
 
-
+___
 ## Credits
 ### Content
 - All code (unless where other-wise stated) was written by myself. The same too is to be said of the text on the webpage. 
