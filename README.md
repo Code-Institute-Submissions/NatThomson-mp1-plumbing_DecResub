@@ -108,7 +108,7 @@ testimonials page wireframe
 
 ## Testing
 
-
+The process of testing was broken up in to three main stages: testing duri
 
 
 
@@ -131,7 +131,6 @@ INSERT SCREENSHOT OF 1 VS 2 COLLUMNS
 _see images below_
 ![alt text](/README-files/screenshots/shot-black-text.png)
 
-- 
 
 2. be able to view emergency contact details incase plumbing services are needed in a hurry
 
@@ -171,7 +170,6 @@ _see image below_
 ![alt text](/README-files/screenshots/shot-map.png)
 
 
-
 7. for the site to meet accesibility guidelines
 
 A number of steps have been taken to insure the website is accessible to as many people as possible. 
@@ -200,6 +198,7 @@ Now back in the repository, when you navigate to 'environments' on the right han
 For further information please visit: https://docs.github.com/en/pages/quickstart 
 
 
+## Potential Future Development for the Website
 
 
 ## Credits
@@ -222,9 +221,6 @@ Special thanks must be given to the tradespeople in my family who inspired me to
 
 
 
-#5C95EF
-#414656
-#A5ABBD colors based from complimenting colors to blue of logo image, found using mycolor.space
 
 navbar from bootstrap 
 structure on index from bootstrap
@@ -239,3 +235,29 @@ bug 4 - contact page not showing updates in preview windown but is in external o
 
 bug 5 - navbar different on index and other 2 - FIX - needed navbar-expand-md class in all three. other 2 were navbar-expand-lg
 
+bug 6 - broken images post deployment
+
+
+## Bugs 
+### Fixed 
+1. 
+- Problem: The hamburger menu on the navbar was not collapsing/expanding.
+- Solution: After some research it turned out that I had been missing the jquery script from the head section. Once that was put in it worked as intended. 
+2. 
+- Problem: Empty side-scrollable space on left and right side of index.html.  
+- Solution: This was actually an easy fix as it had cropped up in a previous lesson on the use of bootstrap layouts. Bootstrap automatically adds negative margins called gutters. To remove them I had to add a .no-gutters class to each bootstrap row. 
+3. 
+- Problem: The intended background color for the navbar was appearing below the rest of the navbar.
+- Solution: Removing the .bg-light class from the navbar fixed the issue. Assuption being that .bg-light has underlying styling that was contradictory to the styling I was applying to the navbar with CSS. 
+4. 
+- Problem: contact.html not showing updates in gitpod preview.
+- Solution: Save work, commit, close it and open it again. Assuming the equivelant of clearing browser cache. 
+5. 
+- Problem: The navbar resizes at a differnt break-point on index.html compared to on the other two pages. 
+- Solution: The pages had differnet classes. index.html was navbar-expand-md whereas the other two pages had navbar-expand-lg. The problem was righted once all three had the same attributes. This was probably caused by copying the navbar across before I had decided on the styling definate. 
+
+### Post Deployment
+
+6. 
+- Problem:
+- Solution: 
