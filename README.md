@@ -203,9 +203,12 @@ For further information please visit: https://docs.github.com/en/pages/quickstar
 
 
 ## Credits
-
-
-
+### Content
+- All code (unless where other-wise stated) was written by myself. The same too is to be said of the text on the webpage. 
+- With the exception of the logo, all images are form pexels.com. 
+ 
+### Personal 
+Special thanks must be given to the tradespeople in my family who inspired me to design a website of this manner, my mentor Jack for his invaluble advice and contributions and my Wonderful Wife for supporting me as always. 
 
 
 
