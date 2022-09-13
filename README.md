@@ -3,11 +3,11 @@
 ### by Nat Thomson
 ---
 
-INSERT IMAGE OF WEBSITE ON MULITPLE DEVICES HERE
+![alt text](/README-files/multi-markup.png)
 
-live site: https://natthomson.github.io/mp1-plumbing/
+Live site: https://natthomson.github.io/mp1-plumbing/
 
-repository: https://github.com/NatThomson/mp1-plumbing
+Repository: https://github.com/NatThomson/mp1-plumbing
 
 ## Table of Contents
 1. [UX](#ux)
@@ -214,7 +214,11 @@ _see previously incuded screenshots of navbar, social links, button and form_
 - Problem: all images showing as broken img links on live website. 
 - Solution: This took a little time and would have been helped by more patience on my part. At first I thought that it might be the case that the file ectensions had to be upper case for Github Pages. However this proved fruitless. My next step was to try altering the file paths from "/assets/images" to "../assets/images". This too had no effect. I then tried "./assets/images" which did not appear to work whereas in actual fact it had worked but I had been too omaptient and did not allow Pages time to load properly, assumed it had not worked and then tried the first three attempts again before finally realising ".assets/images" was correct. 
 
+### a note on deployed website
 
+_The three social links refresh the page instead of openning the desired website._
+
+_The contact form too does not link anywhere but will refresh the contact page. It will however ask for required fields to be complete before allowing to submit._
 ## Deployment
 
 In order to deploy this wwebsite you must go to the repository: https://github.com/NatThomson/mp1-plumbing > click on settings, located above green gitpod button > click on pages, located on left hand menu > under Build and deployment, source,  click to deploy from branch > select main branch. 
