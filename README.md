@@ -128,6 +128,8 @@ Once the build was compelte or near complete I made use of the Lighthouse featur
 
 One common issue found within these reports was that of the image sizing. This was intended as a design choice however having seen the impact it has on load tomes I would reconsider this design choice in future projects. 
 
+It also mentions compressing the images however the three hero images are alrady in .avif formats and were at time of testing.
+
 I also ran each page through a html validator and the style.css through a CSS validator, results of which can be seen below:
 
 
@@ -145,6 +147,8 @@ No issues found by validator.
 css validator results 
 ![alt text](/README-files/testing-files/css-validator.png)
 
+
+I have also tested the website with Voiceover on Mac and it read all elements as intended. 
 ___
 ## Addressing User Stories
 
@@ -263,11 +267,15 @@ For further information please visit: https://docs.github.com/en/pages/quickstar
 
 ___
 ## Potential Future Development for the Website
+In future iterations of the website I would add a 'services' page so customers get a more detailed view of what Paolo offers and a 'gallery' page to showcase previous work undertaken by Paolo. 
 
+In terms of design choices I would take the advice of the lighthouse reports and use images with smaller file sizes. 
 
 ___
 ## What I would have done diffenretly 
-
+The main thing I would have done differently is start my project sooner. Overall I am happy with the design and the overall finished product but I would have liked to have been able to take more time over it. Space out my mentor calls a bit more. 
+I definately would have done the README file alongside coding the actual website more often and made notes of bugs within it as I went along. 
+I would also do clearer and more frequent commit messages. 
 
 
 ___
