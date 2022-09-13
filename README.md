@@ -190,54 +190,6 @@ The website features very few interactive elements. All of them are based on com
 _see previously incuded screenshots of navbar, social links, button and form_
 
 
-
-## Deployment
-
-In order to deploy this wwebsite you must go to the repository: https://github.com/NatThomson/mp1-plumbing > click on settings, located above green gitpod button > click on pages, located on left hand menu > under Build and deployment, source,  click to deploy from branch > select main branch. 
-Now back in the repository, when you navigate to 'environments' on the right hand side it will say github-pages. click here and you will be taken to a page with all deployments of the website. the most recent one will be labelled active. Now click VIEW DEPLOYMENT to see the love website. 
-For further information please visit: https://docs.github.com/en/pages/quickstart 
-
-
-## Potential Future Development for the Website
-
-
-## Credits
-### Content
-- All code (unless where other-wise stated) was written by myself. The same too is to be said of the text on the webpage. 
-- With the exception of the logo, all images are form pexels.com. 
- 
-### Personal 
-Special thanks must be given to the tradespeople in my family who inspired me to design a website of this manner, my mentor Jack for his invaluble advice and contributions and my Wonderful Wife for supporting me as always. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-navbar from bootstrap 
-structure on index from bootstrap
-
-bug 1 - navbar collapse was not working in browser - FIX needed to add jquery cdn
-
-bug 2 - space on left and right of pages not clearing - FIX needed to add .no-gutters to bootsrap rows
-
-bug 3 - nav bar background color appearing underneath navbar on contact and testimonials pages - UPDATE fixed on testimonials page by removing 'bg-light' but same fix does not work on contact page 
-
-bug 4 - contact page not showing updates in preview windown but is in external one - 
-
-bug 5 - navbar different on index and other 2 - FIX - needed navbar-expand-md class in all three. other 2 were navbar-expand-lg
-
-bug 6 - broken images post deployment
-
-
 ## Bugs 
 ### Fixed 
 1. 
@@ -259,5 +211,32 @@ bug 6 - broken images post deployment
 ### Post Deployment
 
 6. 
-- Problem:
-- Solution: 
+- Problem: all images showing as broken img links on live website. 
+- Solution: This took a little time and would have been helped by more patience on my part. At first I thought that it might be the case that the file ectensions had to be upper case for Github Pages. However this proved fruitless. My next step was to try altering the file paths from "/assets/images" to "../assets/images". This too had no effect. I then tried "./assets/images" which did not appear to work whereas in actual fact it had worked but I had been too omaptient and did not allow Pages time to load properly, assumed it had not worked and then tried the first three attempts again before finally realising ".assets/images" was correct. 
+
+
+## Deployment
+
+In order to deploy this wwebsite you must go to the repository: https://github.com/NatThomson/mp1-plumbing > click on settings, located above green gitpod button > click on pages, located on left hand menu > under Build and deployment, source,  click to deploy from branch > select main branch. 
+Now back in the repository, when you navigate to 'environments' on the right hand side it will say github-pages. click here and you will be taken to a page with all deployments of the website. the most recent one will be labelled active. Now click VIEW DEPLOYMENT to see the love website. 
+For further information please visit: https://docs.github.com/en/pages/quickstart 
+
+
+## Potential Future Development for the Website
+
+
+
+## What I would have done diffenretly 
+
+
+
+
+## Credits
+### Content
+- All code (unless where other-wise stated) was written by myself. The same too is to be said of the text on the webpage. 
+- With the exception of the logo, all images are form pexels.com. 
+ 
+### Personal 
+Special thanks must be given to the tradespeople in my family who inspired me to design a website of this manner, my mentor Jack for his invaluble advice and contributions and my Wonderful Wife for supporting me as always. 
+
+
