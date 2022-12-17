@@ -4,6 +4,9 @@
     background-color: rgba(95, 155, 245, 0.7);
 }
 
+body {
+    background-color: #FCF5E5;
+}
 /*---------------------- navbar -----*/
 
 .nav-logo {
@@ -177,7 +180,7 @@ footer {
 
 @media screen and  (max-width: 600px) {
     .nav-logo-container {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -218,8 +221,4 @@ footer {
 
 .index-body {
     color: blue;
-}
-
-h1, h2, h3, .navbar, .nav-logo {
-    margin-top: 0;
 }
