@@ -112,7 +112,7 @@ body {
 
 .index-body {
     font-family: "Mukta", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #000;
 }
 
@@ -124,11 +124,19 @@ body {
     justify-content: space-evenly;
 }
 
+/*----- contact form ------ */
 
+form {
+    margin: 15px;
+}
 
-
-
-
+.but-div {
+    display: flex;
+    flex-direction: column;
+}
+.sub-but {
+    justify-content: center;
+}
 
 
 
