@@ -126,6 +126,11 @@ body {
 
 /*----- contact form ------ */
 
+.contact-text {
+    margin: 50px 15px;
+    text-align: center;
+}
+
 form {
     margin: 15px;
 }
