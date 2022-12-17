@@ -1,3 +1,15 @@
+/*--------- default styles -----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: 0;
+    position: relative; 
+    overflow-x: hidden;
+}
+
 /*--------------- coloring ---------*/
 
 .navbar {
@@ -7,7 +19,7 @@
 body {
     background-color: #FCF5E5;
 }
-/*---------------------- navbar -----*/
+/*--------- navbar -----*/
 
 .nav-logo {
     width: 80px;
@@ -30,56 +42,98 @@ body {
     font-size: 2rem;
 }
 
+/*----media quereis----*/
 
-/*-------- hero images --------
+@media screen and  (max-width: 600px) {
+    .nav-logo-container {
+        display: none;
+    }
 
-.container-fluid {
-    padding: 0;
+    .who-what-area {
+        margin: 8px;
+    }
+
+    .index-img-2 {
+        display: none;
+    } 
 }
 
-.hero-container {
-    width: 100%;
+/*--------- index styling -----*/
+
+.index-img-1 {
+    background-image: url(/assets/images/index-hero.avif);
+    background-size: cover;
+    background-position: right 90% ;
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+    object-fit: scale-down;
 }
 
-.hero-img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 15px;
+.index-img-2 {
+    background-image: url(/assets/images/teste-hero.avif);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 500px;
+    margin: 20px;
 }
 
-/*----------general --------
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-.who-what-head {
-    font-size: 1.6rem;
+.who-what-area {
+    border-color: #FCF5E5;
+    max-width: 300px;
     text-align: center;
-    margin-top: 20px;
-    font-family: "Mukta", sans-serif;
+    margin: 16px;
+    padding: 4px;
+    background: transparent;
+    transition: 0.6s;
+    height: fit-content;
+    overflow: hidden;
 }
 
-.who-what-head h3 {
-    align-items: center;
+.who-what-area:hover {
+    box-shadow: 0 0 12px;
+    height: fit-content;
 }
 
-.who-what-text {
-    font-size: 1rem;
-    margin-top: 20px;
-    text-align: center;
+.index-head {
     font-family: "Mukta", sans-serif;
+    font-size: 1.8rem;
+    color: #000;
 }
 
-.area-head {
-    font-size: 1.6rem;
+.index-body {
     font-family: "Mukta", sans-serif;
-    font-weight: 400;
+    font-size: 1.1rem;
+    color: #000;
 }
 
-.contact-text {
-    font-size: 1rem;
-    padding: 12px;
-    margin-top: 20px;
-    text-align: center;
-    font-family: "Mukta", sans-serif;
+.img-container {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------map-------
 
@@ -174,97 +228,4 @@ footer {
 
 .social-links li a i:hover {
     background: #537e78;
-}
-
-
-/*----media quereis----*/
-
-@media screen and  (max-width: 600px) {
-    .nav-logo-container {
-        display: none;
-    }
-
-    .who-what-area {
-        margin: 8px;
-    }
-
-    .index-img-2 {
-        display: none;
-    } 
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: 0;
-    position: relative; 
-    overflow-x: hidden;
-}
-
-
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    height: max-content;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.who-what-area {
-    border-color: #FCF5E5;
-    max-width: 300px;
-    text-align: center;
-    margin: 16px;
-    padding: 4px;
-    background: transparent;
-    transition: 0.6s;
-    height: fit-content;
-}
-
-.who-what-area:hover {
-    box-shadow: 0 0 12px;
-    height: fit-content;
-}
-
-.index-head {
-    font-family: "Mukta", sans-serif;
-    font-size: 1.8rem;
-    color: #000;
-}
-
-.index-body {
-    font-family: "Mukta", sans-serif;
-    font-size: 1.1rem;
-    color: #000;
-}
-
-.img-container {
-    display: flex;
-    flex-direction: row;
-    height: max-content;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.index-img-1 {
-    background-image: url(/assets/images/index-hero.avif);
-    background-size: cover;
-    background-position: right 90% ;
-    height: 250px;
-    width: 500px;
-    margin: 20px;
-    object-fit: scale-down;
-}
-
-.index-img-2 {
-    background-image: url(/assets/images/teste-hero.avif);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 500px;
-    margin: 20px;
 }
