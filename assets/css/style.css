@@ -8,6 +8,7 @@
     vertical-align: 0;
     position: relative; 
     overflow-x: hidden;
+    overscroll-behavior: none;
 }
 
 /*--------------- coloring ---------*/
@@ -224,22 +225,26 @@ form {
     padding-bottom: 50px;
 }
 
-/*-----footer----
+/*-----footer----*/
 
 footer {
     background-color: rgba(95, 155, 245, 0.7);
     color: black;
     min-height: 90px;
-    margin: 0;
 }
 
 .social-links {
-    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 90px;
+    align-items: center;
 }
 
-.social-links li {
-    padding-top: 15px;
+.social-link {
+    margin-right: 6px;
 }
+
 
 .social-links li a i {
     width: 32px;
