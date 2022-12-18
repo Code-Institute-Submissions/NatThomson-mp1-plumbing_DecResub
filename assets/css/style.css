@@ -55,7 +55,7 @@ body {
 
     .index-img-2 {
         display: none;
-    } 
+    }
 }
 
 /*--------- index styling -----*/
@@ -124,18 +124,21 @@ body {
 
 .who-what-area:hover {
     box-shadow: 0 0 8px;
+    
 }
 
 .index-head {
     font-family: "Mukta", sans-serif;
     font-size: 1.8rem;
     color: #000;
+    padding: 10px;
 }
 
 .index-body {
     font-family: "Mukta", sans-serif;
     font-size: 1rem;
     color: #000;
+    padding: 5px;
 }
 
 
