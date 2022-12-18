@@ -57,6 +57,9 @@ body {
     .index-img-2 {
         display: none;
     }
+    .social-link {
+        margin-right: 4px;
+    }
 }
 
 /*--------- index styling -----*/
@@ -239,23 +242,23 @@ footer {
     justify-content: flex-end;
     height: 90px;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .social-link {
-    margin-right: 6px;
+    margin-right: 40px;
 }
 
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     font-size: 40px;
-    line-height: 7px;
-    text-align: left;
+    line-height: revert;
+    text-align: center;
     color: #fafafa;
-    background: rgba(95, 155, 245, 0.7);
+    background: rgba(95, 155, 245, 0.0);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -263,5 +266,6 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #537e78;
+    background: rgba(95, 155, 245, 1);
+    box-shadow: 0 0 22px;
 }
