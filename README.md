@@ -120,6 +120,14 @@ During the build provess when a minor error occured or when I wanted to quickly 
 
 Once the build was compelte or near complete I made use of the Lighthouse feature within DevTools. This gave me a detailed report on the load time of each page on both desktop and mobile. You can view the reports here:
 
+[index desktop](/README-files/testing-files/lighthouse-desktop-index.pdf)
+[contact desktop](/README-files/testing-files/lighthouse-desktop-contact.pdf)
+[testemonial desktop](/README-files/testing-files/lighthouse-desktop-testemonial.pdf)
+[index mobile](/README-files/testing-files/lighthouse-mobile-index.pdf)
+[contact mobile](/README-files/testing-files/lighthouse-mobile-contact.pdf)
+[testemonial mobile](/README-files/testing-files/lighthouse-mobile-testemonial.pdf)
+
+All pages have passed through html and css valisdation using https://jigsaw.w3.org/
 
 ___
 ## Addressing User Stories
