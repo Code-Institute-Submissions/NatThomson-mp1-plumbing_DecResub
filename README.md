@@ -9,7 +9,7 @@ Live site: https://natthomson.github.io/mp1-plumbing/
 
 Repository: https://github.com/NatThomson/mp1-plumbing
 
-Please also see [notes on Resubmission](#notes-on-resubmission)
+Please also see: [notes on Resubmission](#notes-on-resubmission)
 
 ## Table of Contents
 1. [UX](#ux)
@@ -45,8 +45,7 @@ ___
 ## UX
 
 ### Purpose of Project
-The purpose of the project is to create a website advertising a ficticious plumbers services. Paolo does a lot of on call work (emergency work such as leaks, burst pipes etc.) and therefore needs visitors to his website to be able to get in touch with him quickly. He also does more intricate residential plumbing work so needs to be able to showcase his work in a clear way and for potential customers to be able to get in touch with him with details of the work they need done. 
-Due to the nature of the serices he provides, adults of all ages need to be able to use therefore it is imperative that the site is both user-friendly and accesible so as to appeal to as wide an audience as possible. 
+The purpose of the project is to create a website advertising a ficticious plumber and their services. Paolo does a lot of on call work (emergency work such as leaks, burst pipes etc.) and therefore needs visitors to his website to be able to get in touch with him urgently. He also needs a way in which customers can get in touch with him to enquire about less urgent jobs. Paolo's target audience is essentially anyone within a reasonable distance that might need plumbing work so the website needs to feature a clear, accesible UI that anyone from 18 to 80 can make use of. 
 ___
 ### User Stories
 The user will:
