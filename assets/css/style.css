@@ -174,9 +174,14 @@ form {
     justify-content: center;
 }
 
+.email-a-tag:hover {
+    color: rgba(95, 155, 245, 1);
+    font-size: 1.2rem;
+}
 
-
-
+p {
+    font-family: "Mukta", sans-serif;
+}
 
 
 /*---------map-------*/
