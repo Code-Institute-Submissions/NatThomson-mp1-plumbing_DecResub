@@ -50,13 +50,11 @@ ___
 ### User Stories
 The user will:
 1. be able to easily view the website on a variety of different devices
-2. be able to view emergency contact details incase plumbing services are needed in a hurry
-3. be able to see services offered
-4. the ability to get in contact in a variety of different ways easily and clearly
-5. to navigate the various pages of the website easily
-6. clearly see if services are available from the website in their area 
-7. for the site to meet accesibility guidelines
-8. for interactive elements to be easily useable
+2. be able to get in contact in a variety of ways including in case of emergency
+3. be able to interact with all website elements
+4. be able to navigate to all pages of the website
+5. be able to tell if the websit ewill provide services in their area
+6. 
 
 ___
 ### Design Choices
