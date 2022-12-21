@@ -77,14 +77,16 @@ The final imagery to mention is that of the logo; created using DALL.E 2 - an im
 
 
 ### Wireframes
-index page wireframe 
+original index page wireframe 
 ![alt text](/README-files/home%20page.png)
-contact page wireframe
+original contact page wireframe
 ![alt text](/README-files/contact.png)
-testimonials page wireframe
+original testimonials page wireframe
 ![alt text](/README-files/testimonials.png)
 
+## Deviations from Initiial Design
 
+Firstly I initiially invisaged there beign a hero image on every page. Tjis proved to appear too claustraphobic and resulted in uneccessary scrolling to get to the important content. Instead I opted for two hero images on the index page appearing side by side with a subtle zoom in animation or one on top of the other on a medium screen size or just one on small screen sizes.    
 
 ## Technologies Used
 
