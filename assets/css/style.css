@@ -179,7 +179,7 @@ form {
 
 
 
-/*---------map-------
+/*---------map-------*/
 
 .flex-container {
     display: flex;
@@ -190,7 +190,7 @@ form {
 .custom-map {
     width: 300px;
     height: 300px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 /*---------button-------*/
