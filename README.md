@@ -9,6 +9,8 @@ Live site: https://natthomson.github.io/mp1-plumbing/
 
 Repository: https://github.com/NatThomson/mp1-plumbing
 
+Please also see [notes on Resubmission](#notes-on-resubmission)
+
 ## Table of Contents
 1. [UX](#ux)
 * Purpose of Project
@@ -287,4 +289,7 @@ ___
 ### Personal 
 Special thanks must be given to the tradespeople in my family who inspired me to design a website of this manner, my mentor Jack for his invaluble advice and contributions and my Wonderful Wife for supporting me as always. 
 
+___
+# Notes on Resubmission
 
+After having recieved a fail for my initial MP1 Project Submission of the same name I imported the feedback into an Excel spreadsheet and filtered it by 'no' giving me a clear outline of every criterion causing the resulting failure. From this I drew up a plan to resolve the numerous issues. During this process I have corrected and ammended many peices of code within the various HTML, CSS & MD files. Where i felt it appropriate I have left certain elements the same and justified that choice, for example some elements no longer match the original wireframes but I have acknowledged this and given reasons as to why.  
