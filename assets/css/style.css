@@ -73,7 +73,7 @@ body {
 }
 
 .index-img-1 {
-    background-image: url(/assets/images/index-hero.avif);
+    background-image: url(./assets/images/index-hero.avif);
     background-size: cover;
     background-position: right 90% ;
     height: 250px;
@@ -95,7 +95,7 @@ body {
   }
 
 .index-img-2 {
-    background-image: url(/assets/images/teste-hero.avif);
+    background-image: url(./assets/images/teste-hero.avif);
     background-size: cover;
     background-position: center;
     height: 250px;
