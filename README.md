@@ -124,16 +124,31 @@ ___
 
 Here we shall explore the user needs as outlined in the [User Stories](#user-stories) section and demonstrate how each user need has been met. 
 
-1. be able to easily view the website on a variety of different devices
-2. be able to get in contact in a variety of ways including in case of emergency
-3. be able to interact with all website elements
-4. be able to navigate to all pages of the website
-5. be able to tell if the website will provide services in their area
-6. have a clear sense of the purpose of the website
-
 1. _be able to easily view the website on a variety of different devices_
 
-This has been acheived in a variety of ways. Firstly I have made use of responsive structuring devices such as flexbox and bootstrap. I used flexbox on the index page to allow the text elements to appear side by side on a large screens and on top of one another on small screens so the user will not have to scroll horizontally or zoom in. The images on the index page too have been structured using flexbox and similarly appear side by side then on top of one another on small screens. The contact and testemonials page use bootstrap for their struturing to create similarly responsive effects with testemonials appearing in a grid on large screens and a list on small screens. 
+This has been acheived in a variety of ways. Firstly I have made use of responsive structuring devices such as flexbox and bootstrap. I used flexbox on the index page to allow the text elements to appear side by side on a large screens and on top of one another on small screens so the user will not have to scroll horizontally or zoom in. The images on the index page too have been structured using flexbox and similarly appear side by side then on top of one another on small screens. The contact and testemonials page use bootstrap for their struturing to create similarly responsive effects with testemonials appearing in a grid on large screens and a list on small screens. The navigation bar at the top of screen too is styled responsively using bootstrap to allow for the menu to appear at thte top of the browser window on large screen sizes and condenses down into a hamburger menu on smaller screens. 
+
+2. _be able to get in contact in a variety of ways including in case of emergency_
+
+Upon opening the home page the user is faced with a large, clear button labelled 'Emergency? click here' below the hero image/images. When clicked on a mobile device they will immediately be prompted with a 'call _number_' pop up. Similarly on desktop devices the device will try to make the phoen call with whatever software it has i.e. facetime etc. On top of this there is a clearly labelled 'contact' page the user can get to by interacting with the menu. On this page the user is given the option of filling out a contact form, sending an email bu interacting with a clearly labelled email enquiry link. There is even a definitely genuine business address provided below for those who wish to write. 
+
+3. _be able to interact with all website elements_
+
+All links take the user to the approprite place including the social media links in the footer. 
+The contact form is clearly labelled and is editable. text sizes in all interactive elements are large enough on all screen sizes aiding in the sites overall accesibility.  
+
+4. _be able to navigate to all pages of the website_
+
+Navigating to all pages of the website is easy via the navigation menu. THere is no need to use browser controls (back, forward) although they work as they should. 
+
+5. _be able to tell if the website will provide services in their area_
+
+A general list of areas is described in the 'Where we work' section on the index page with further detail being granted in the form of an interactive google map displaying a clear outline of the areas Paolo is prepared to travel for emergency call out work. 
+
+6. _have a clear sense of the purpose of the website_
+
+The purpose of the website is clear from the logo and heading, through the clear use of imagery and icons further reinforcing the purpose of the website. 
+
 ___
 ## Bugs 
 ### Fixed 
