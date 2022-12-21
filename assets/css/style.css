@@ -160,6 +160,8 @@ body {
     margin: 50px 15px;
     text-align: center;
     width: 600px;
+    height: max-content;
+    padding-bottom: 12px;
 }
 
 form {
