@@ -149,11 +149,17 @@ body {
     vertical-align: top;
 }
 
-/*----- contact form ------ */
+/*----- contact page ------ */
+
+.contact-text-container {
+    display: flex;
+    justify-content: space-around;
+}
 
 .contact-text {
     margin: 50px 15px;
     text-align: center;
+    width: 33%;
 }
 
 form {
