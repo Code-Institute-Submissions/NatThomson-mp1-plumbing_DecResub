@@ -53,13 +53,13 @@ The user will:
 2. be able to get in contact in a variety of ways including in case of emergency
 3. be able to interact with all website elements
 4. be able to navigate to all pages of the website
-5. be able to tell if the websit ewill provide services in their area
-6. 
+5. be able to tell if the website will provide services in their area
+6. have a clear sense of the purpose of the website
 
 ___
 ### Design Choices
 
-Below is the color pallete I decided to use for the website. I decided upon this because blue is generally seen as a color which conveys a sense of calm and that's how I want the users to feel when using the website. Simple design - simple colors - calm down - call plumber. As for this pallet in particular it all comes down to that word 'simple' again. These three colors paired with an off-white shade made for a visually pleasing, un-cluttered website. 
+Below is the color pallete originally selected for the website. The thought behind it was that blues and greys have a calming effect, match the logo colors and anchor a sense of the sites purpose with plumbing conjuring thoughts of grey pipes, silver taps, blue water etc. Having tried these colors out I decided to add a soft shade of white #FCF5E5 to aid in webaim contrast criteria. I also find that personally black text on a bright white background to be unkind on the eyes so a softer more parchment shade of white seemed a better option. 
 
 ![alt text](/README-files/screenshots/color-pal.png)
 
@@ -68,13 +68,11 @@ I used a variety of differnt font weights to help show a differnece in text impo
 
 ![alt text](/README-files/screenshots/font-mukta.png)
 
-All hero/banner images were taken from pexels using various search criteria. For the home page image I wanted a picture to show off Paolo's plumbing. 
+All images (withthe exception of the logo) were taken from pexels using various search criteria. 
+I decided on two 'hero' images for the index page (or one of viewed on a device with a small screen width). The first image is of a set of taps in a rather attractive bathroom implying that it is the work of the business owner and reinforces it is in fact a plumbing website. The second image is of a professional yet friednly looking plumber hard at work further reassuring site visitors they are in the right place for their plumbing needs.  
 ![alt text](/assets/images/index-hero.avif)
-For the contact page I wanted a picture that conveys the purpose of said page so found a n image of a laptop with an iphone in hand.
-![alt text](/assets/images/contact-hero.avif)
-For the testimonials page I thought an image of a could-be-Paolo would go well so users can attribute the positive reviews shown with Paolo's smiley face. 
 ![alt text](/assets/images/teste-hero.avif)
-The final imagery to mention is that of the logo; created using DALL.E 2 - an image generating AI i signed up to use. The logo is the letter 'P' for Paolo with a dripping tap to reinforce the fact that he is a plumber. It was created by using the descriptive text of 'The letter P with a tap, digital art'. after putting it into a circle using CSS I think it looks very professional. 
+The final imagery to mention is that of the logo; created using DALL.E 2 - an image generating AI. The logo is the letter 'P' for Paolo with a dripping tap to reinforce the fact that he is a plumber. It was created by using the descriptive text of 'The letter P with a tap, digital art'. after putting it into a circle using CSS I think it looks very professional. 
 ![alt text](/assets/images/paolo-logo.png)
 
 
