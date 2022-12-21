@@ -175,7 +175,7 @@ ___
 - Solution: This took a little time and would have been helped by more patience on my part. At first I thought that it might be the case that the file ectensions had to be upper case for Github Pages. However this proved fruitless. My next step was to try altering the file paths from "/assets/images" to "../assets/images". This too had no effect. I then tried "./assets/images" which did not appear to work whereas in actual fact it had worked but I had been too omaptient and did not allow Pages time to load properly, assumed it had not worked and then tried the first three attempts again before finally realising ".assets/images" was correct. 
 
 ### Unresolved Bugs
-It is worth noting that in Chrome on the iPhone mini 13 there is empty white space to the left and right of the screen on all of the web pages. 
+It is worth noting that in Chrome on the iPhone mini 13 there is empty white space to the left and right of the screen on all of the web pages. NOW RESOLVED by implememting overflow-x: hidden;
 ___
 ## Deployment
 
@@ -187,13 +187,6 @@ ___
 ## Potential Future Development for the Website
 In future iterations of the website I would add a 'services' page so customers get a more detailed view of what Paolo offers and a 'gallery' page to showcase previous work undertaken by Paolo. 
 
-In terms of design choices I would take the advice of the lighthouse reports and use images with smaller file sizes. 
-
-___
-## What I would have done diffenretly 
-The main thing I would have done differently is start my project sooner. Overall I am happy with the design and the overall finished product but I would have liked to have been able to take more time over it. Space out my mentor calls a bit more. 
-I definately would have done the README file alongside coding the actual website more often and made notes of bugs within it as I went along. 
-I would also do clearer and more frequent commit messages. 
 
 
 ___
