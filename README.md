@@ -86,7 +86,7 @@ original testimonials page wireframe
 
 ## Deviations from Initiial Design
 
-Firstly I initiially invisaged there beign a hero image on every page. Tjis proved to appear too claustraphobic and resulted in uneccessary scrolling to get to the important content. Instead I opted for two hero images on the index page appearing side by side with a subtle zoom in animation or one on top of the other on a medium screen size or just one on small screen sizes.    
+Firstly I initiially invisaged there beign a hero image on every page. Tjis proved to appear too claustraphobic and resulted in uneccessary scrolling to get to the important content. Instead I opted for two hero images on the index page appearing side by side with a subtle zoom in animation or one on top of the other on a medium screen size or just one on small screen sizes. The map too was removed form the index page and only appears at the bottom of the content page now. In its place is a brief description of the areas covered fitting in much nicer with the rest of the page.    
 
 ## Technologies Used
 
